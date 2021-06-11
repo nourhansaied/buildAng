@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <img [src]="baseURL +movieDetails.poster_path" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-8">
+            <h3>{{movieDetails.original_title}}</h3>
+            <p> {{movieDetails.tagline}} </p>
+            <p> {{movieDetails.vote_average}} </p>
+            <p> {{movieDetails.vote_count}} </p>
+            <p> {{movieDetails.popularity}} </p>
+
+            <p> {{movieDetails.release_date}} </p>
+
+            <p> {{movieDetails.overview}} </p>
+        </div>
+    </div>
+</div>
